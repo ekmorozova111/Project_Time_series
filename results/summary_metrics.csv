@@ -1,0 +1,11 @@
+model,MASE_mean,MASE_median,RMSSE_mean,RMSSE_median,sMAPE_mean,sMAPE_median
+AutoTheta,0.9244,0.7471,0.8245,0.6913,11.0521,5.5212
+AutoETS,0.9324,0.7467,0.8235,0.6779,11.8718,5.706
+Naive,1.1479,0.8782,1.0331,0.8182,12.7741,7.0503
+CatBoost_lags_seasonal_calendar,1.1767,0.919,1.0515,0.8541,12.1442,7.6496
+CatBoost_lags_fourier_calendar,1.1793,0.934,1.053,0.8422,12.0844,7.8094
+CatBoost_lags_calendar,1.1841,0.935,1.058,0.8444,12.0476,7.9248
+CatBoost_lags_seasonal,1.203,0.994,1.0725,0.8892,12.1658,7.5625
+CatBoost_lags_only,1.2074,0.9654,1.0737,0.8672,12.1031,7.6201
+CatBoost_lags_fourier,1.2181,0.9331,1.085,0.8705,12.0517,7.7244
+SeasonalNaive,1.2558,1.0258,1.0946,0.9422,14.2538,8.1568
